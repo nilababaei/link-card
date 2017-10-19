@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  background-color: #dcd4cd;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, a {
+  font-family: 'Dosis', sans-serif;
+}
