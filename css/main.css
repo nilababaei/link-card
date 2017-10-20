@@ -12,3 +12,26 @@ html {
 h1, a {
   font-family: 'Dosis', sans-serif;
 }
+
+.link-card {
+  border-width: 2px;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border-color: #9a816d;
+  color: #512200;
+}
+
+.btn {
+  border-width: 3px;
+  border-radius: 8px;
+  background-color: #785439;
+  color: #f0eee8;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+}
