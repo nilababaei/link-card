@@ -16,6 +16,7 @@ body {
 
 h1, .btn {
   font-family: 'Dosis', sans-serif;
+  font-weight: bolder;
 }
 
 .link-card {
@@ -34,7 +35,7 @@ h1, .btn {
   text-decoration: none;
 
   margin: 1rem;
-  padding: 1rem;
+  padding: 1rem 1rem 0;
 }
 
 .btn {
@@ -46,14 +47,16 @@ h1, .btn {
   background-color: #785439;
   color: #f0eee8;
   text-decoration: none;
-  font-weight: bold;
   font-size: 1.125rem;
 
   padding: .4em .75em .5em;
+
+  display: inline-block;
+
 }
 
 .link-card:hover {
-  background-color: #9a816d;
+  background-color: #cabdb2;
 }
 
 .link-card:hover .btn {
@@ -61,16 +64,43 @@ h1, .btn {
   border-color: #512200;
 }
 
-ul {
+dl {
   list-style-type: none;
   font-size: .875rem;
-  line-height: 1.5rem;
+  padding: 1rem;
+  padding-left: 0;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #9a816d;
+  border-left: 0;
+  border-right: 0;
+
+  overflow: hidden;
+}
+
+dt {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+dd {
+  display: inline-block;
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 p {
   font-size: 1rem;
 }
 
-h1 {
-  font-size: 1.5rem;
+div {
+  margin: 0 0 1rem;
+  text-align: center;
 }
