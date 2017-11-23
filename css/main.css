@@ -20,11 +20,7 @@ h2, .btn {
 }
 
 .link-card {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-
+  display: block;
   border-width: 3px;
   border-radius: 3px;
   border-style: solid;
